@@ -86,7 +86,7 @@ def posFixa(lista: list[str]):
     else:
         print("Esta faltando um operador")
 
-def main(): # <- input, try/except, open, for linha → posFixa
+def main(): 
     try:
         arquivo = input("Digite o nome do arquivo que deseja: ")
         with open(arquivo, "r", encoding="utf-8") as arquivo:
